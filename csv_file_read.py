@@ -17,8 +17,8 @@ next(customer_file)
 # "for record in customer_file" means it will go through
 # each line one at a time
 for record in customer_file:
-    print(record)
-    print("first name:", record[1])
+    print(record)  # this prints out the whole line of text, not a singular things
+    print("first name:", record[1])  # starts at one becuase this is a zero-based system
     print("last name:", record[2])
     print("City:", record[3])
     print("Country:", record[4])
